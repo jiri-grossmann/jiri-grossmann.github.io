@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Blog Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript" src="addArticle.js"></script>
+</head>
+<body>
+	<header id="header">
+		<div>The Blog</div>
+	</header>
+
+	<main>
+		<p class="titles">Add new post</p>
+		<form id="posts" name="posts" method="post">
+			<label for="title">Title</label><br>
+			<input type="text" name="title" id="title" placeholder="Title name"><br><br>
+			<label for="content">Content</label><br>
+			<textarea name="content" id="content" placeholder="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer lacinia. Etiam neque. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Praesent vitae arcu tempor neque lacinia pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce aliquam vestibulum ipsum. Donec vitae arcu. Aliquam ante. Donec vitae arcu. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"></textarea><br><br>
+			<!-- <input type="submit" name="submit" id="submit"> -->
+			<div id="submitarticle" onclick="addArticle();">Submit</div>
+		</form>
+		<br><br><hr id="postseparator">
+		<p class="titles">Posts</p><br>
+		<div id="contents">
+			<article class="contentpost">
+				<h1 class="contenttitle">Lorem ipsum dolor sit amet</h1>
+				<p class="contenttext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer lacinia. Etiam neque. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Praesent vitae arcu tempor neque lacinia pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce aliquam vestibulum ipsum. Donec vitae arcu. Aliquam ante. Donec vitae arcu. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+			</article><hr class="separator">
+			<article class="contentpost">
+				<h1 class="contenttitle">Lorem ipsum dolor sit amet</h1>
+				<p class="contenttext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer lacinia. Etiam neque. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Praesent vitae arcu tempor neque lacinia pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce aliquam vestibulum ipsum. Donec vitae arcu. Aliquam ante. Donec vitae arcu. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+			</article><hr class="separator">
+		</div>
+	</main>
+</body>
+</html>
