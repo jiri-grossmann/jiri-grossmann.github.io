@@ -1,0 +1,99 @@
+@font-face {
+  font-family: MarkaziText;
+  src: url(font/MarkaziText-VariableFont_wght.ttf);
+}
+
+body{
+	margin: 0;
+	font-family: 'MarkaziText';
+	/*font-family: 'Roboto Slab';*/
+	/*font-family: "Times new roman";*/
+	background-image: url('img/topography.webp');
+}
+
+#header{
+	background-color: #333333;
+	padding: 10px 10px;
+	overflow: hidden;
+
+}
+#navleft{
+	float: left;
+	height: 50px;
+}
+
+#navright{
+	float: right;
+	margin-top: 20px;
+	margin-right: 10%;
+}
+
+.nav{
+	color: deeppink;
+	margin-left: 35px;
+	font-family: consolas, courier;
+	font-size: 24px;
+	/*font-weight: bold;*/
+}
+
+img{
+	margin-top: 10px;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+h1,h2,p, #navleft{
+	/*margin-left: 10%;*/
+	margin: 0 10% 20px 10%;
+}
+
+h1{
+	margin-top: 5%;
+	/*font-weight: bold;*/
+	font-size: 64px;
+}
+
+h2{
+	color: deeppink;
+	font-size: 32px;
+	font-weight: normal;
+}
+
+p{
+	font-size: 26px;
+}
+
+#techwiki{
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+hr{
+	border-top: 2px dashed black;
+	width: 20px;
+}
+
+br{
+	display: block;
+	margin: 50px 0;
+	content: " ";
+}
+
+#hidethis{
+	color: lightgray;
+	background-color: lightgray;
+	webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
+	/*opacity: 70%;*/
+}
+
+#hidethis:hover{
+	color: deeppink;
+	background-color: transparent;
+	webkit-user-select: auto; /* Safari */
+	-ms-user-select: auto; /* IE 10 and IE 11 */
+	user-select: auto; /* Standard syntax */
+	/*opacity: 100%;*/
+}
